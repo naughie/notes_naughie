@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Naughie" />
+  <meta name="dcterms.date" content="04/22" />
+
+  <meta property="og:title" content="List of Textbooks  –Naughie's Notes" />
+  <meta property="og:description" content="代数学（表現論）の教科書">
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://notes.naughie.net/seminar/booklist.html" />
+  <meta property="og:image" content="https://advent.naughie.net/2018/img/cd_ass_law.png" />
+  <meta property="og:site_name" content="Naughie's Notes" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@naughiez" />
+
+  <title>List of Textbooks  –Naughie's Notes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://assets.naughie.net/css/standard.css">
+  <style>li { padding-top: 0.7em; } h1 { padding-top: 1em; padding-bottom: 0.5em; } ul { padding-bottom: 0.4em; }</style>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+	inlineMath: [['$','$'], ['\\(','\\)']],
+      },
+      displayAlign: "left",
+      displayIndent: "2em",
+      TeX: {
+	equationNumbers: {
+	  autoNumber: "AMS",
+	},
+	TagSide: "left",
+        extensions: [
+          "AMScd.js",
+        ],
+      },
+      CommonHTML: {
+        matchFontHeight: false,
+        mtextFontInherit: true,
+      },
+    });
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML&locale=ja"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<main role="main" class="container">
+<div class="starter-template">
+<h1 id="list-of-textbooks-on-representation-theory">代数学（表現論）の教科書</h1>
+
+<p>以下で * が付いているものは，邦訳のある洋書である．</p>
+
+<p>まず，代数系への入門的な教科書として，次が挙げられる：</p>
+
+<ul>
+<li><a href="http://www.utp.or.jp/book/b305602.html">桂利行. 代数学II 環上の加群. 東京大学出版会.</a></li>
+<li><a href="http://www.asakura.co.jp/books/isbn/978-4-254-11463-8/">堀田 良之. 加群十話. 朝倉書店.</a></li>
+<li><a href="https://www.shokabo.co.jp/mybooks/ISBN978-4-7853-1402-6.htm">堀田 良之. 代数入門. 裳華房.</a></li>
+</ul>
+
+<p>堀田の加群十話には <span class="math inline">\(\mathcal D\)</span> 加群，代数入門には Weyl 代数の話が書いてある．これらは物理学（特に物性物理）からの要請で研究される．入門的な教科書に書いているのは珍しいため，読んでみるとよい．</p>
+<p>桂の本は単因子論とテンソル加群，有限群の表現論等について非常に簡潔にまとめている．それぞれのチャプターはほぼ独立だから，必要な部分だけすぐに読むことができる．</p>
+
+<p>表現論のゲートウェイとなるのは，有限群の表現論と Lie 環の表現論である．（注：Lie 環と Lie 代数は多くの場合同じ意味で用いられる．）これらの入門書として適切なのは，</p>
+
+<ul>
+<li><a href="http://www.asakura.co.jp/books/isbn/978-4-254-11496-6/">平井 武．線形代数と群の表現 I．朝倉書店．</a></li>
+<li><a href="https://www.nippyo.co.jp/shop/book/1906.html">佐武 一郎. リー環の話. 日本評論社.</a></li>
+</ul>
+
+<p>がある．ともに線形代数の計算さえできれば十分で，学部一回生でも（高校生でも）読み進めることができる．</p>
+
+<p>これらの本より難しいが，</p>
+
+<ul>
+<li>*<a href="https://www.springer.com/jp/book/9780387901909">Jean Pierre Serre. Linear Representations of Finite Groups. Springer.</a></li>
+<li><a href="https://www.springer.com/gp/book/9780387900537">James Humphreys. Introduction to Lie Algebras and Representation Theory. Springer.</a></li>
+</ul>
+
+<p>は古典的な名著であり，読む価値がある．扱う内容は基本的には変わらないため，上の本（平井，佐武）を読んでから読むとよいだろう．</p>
+
+<p>有限群の表現論を学ぶと，有限群は群上の和 <span class="math inline">\(\sum_{g \in G}\)</span> を考えられるのが理論の核となっていることに気づくだろう．より一般に，コンパクト群上の Haar 測度 <span class="math inline">\(\int_G \mathrm{d} \mu\)</span> を考えることで，コンパクト群の表現を扱うことができる．それにより，群の指標理論が Fourier 変換とどう関係しているのかが見えてくる．この関係の概観を眺めたい場合は</p>
+
+<ul>
+<li><a href="https://www.iwanami.co.jp/book/b265391.html">高瀬 幸一. 群の表現論序説. 岩波書店.</a></li>
+</ul>
+
+<p>がよい．また，Lie 環の表現論のあとで Lie 群の表現論を学びたくなるのは必然であろう．コンパクト Lie 群の表現論は</p>
+
+<ul>
+<li><a href="https://www.springer.com/gp/book/9780387975276">William Fulton. Joe Harris. Representation Theory. Springer.</a></li>
+<li><a href="https://www.springer.com/gp/book/9781475724530">Anthony Knapp. Lie Groups beyond an Introduction. Springer.</a></li>
+</ul>
+
+<p>に詳しい．ただし，これらの本は可微分多様体に慣れていることを前提としている．可微分多様体の点 <span class="math inline">\(p\)</span> における<strong>接ベクトル空間</strong>とは演算子 <span class="math inline">\(\partial / \partial x^i |_p\)</span> の張るベクトル空間のことであり，Lie 環とは Lie 群のその単位元における接ベクトル空間のことである，と言われてピンとこないならまず可微分多様体について学んだほうがよいだろう．その際にどの本が参考になるかについては，代数学の範疇を超えるためここでは説明しない．</p>
+
+<p>Lie 群の中でも線形 Lie 群と呼ばれるクラスは，線形代数の計算さえできれば，多様体論を知らなくてもある程度は調べることができる．そうした取り組みは</p>
+
+<ul>
+<li><a href="https://www.springer.com/gp/book/9783319134666">Brian Hall. Lie Groups, Lie Algebras, and Representations. Springer.</a></li>
+<li>*<a href="https://press.princeton.edu/books/paperback/9780691049908/theory-of-lie-groups-pms-8-volume-8">Claude Chevalley. Theory of Lie Groups. Princeton University Press.</a></li>
+</ul>
+
+<p>がオススメである．ただし，Hall の本はやや冗長で退屈に感じるかもしれない．Chevalley は少し古いが古典的な名著であり，一読の価値がある．</p>
+
